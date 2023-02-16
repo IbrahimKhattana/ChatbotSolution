@@ -1,0 +1,12 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "airlinebot-v3"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-jl1c2no27yt9"
+s3_prefix = "airlinebot-v3"
+region = "us-east-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+disable_rollback = true
+image_repositories = []
